@@ -1,0 +1,25 @@
+{
+  "model": "Tuyến tính + đặc trưng mới",
+  "features": [
+    "age",
+    "bmi",
+    "children",
+    "sex",
+    "smoker",
+    "region"
+  ],
+  "target": "charges (USD)",
+  "seed": 42,
+  "train_rows": 1069,
+  "test_metrics": {
+    "rmse": 3371.664379631925,
+    "mae": 2005.7690483391261,
+    "r2": 0.921139889051253,
+    "mape": 0.28914350805247113,
+    "rmse_ci95": [
+      2566.5821959942905,
+      4166.096759393713
+    ]
+  },
+  "params": null
+}
